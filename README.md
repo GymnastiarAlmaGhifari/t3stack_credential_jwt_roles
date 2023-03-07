@@ -43,15 +43,15 @@ this make t3stack project by installing next-auth yourself, this is used to avoi
 - change your env.mjs like mine
 - make folder inside api = auth/[...nextauth].ts  and change like my mine
 - add folder middleware to control token user whos loggin role
-- if you want to add the user open your postman
-  //1. change your file to json
-  //2. http://localhost:3000/api/register
-  //3. {
+# if you want to add the user open your postman
+- change your file to json
+- http://localhost:3000/api/register
+- {
     "email" : "admin@gmail.com",
     "name": "admin",
     "password": "123123",
     "role" : "ADMIN"
     }
-  //4. post
+- post
 - you can login with many roles you want to add
 - end
