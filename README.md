@@ -42,7 +42,7 @@ this make t3stack project by installing next-auth yourself, this is used to avoi
     #NEXTAUTH_SECRET= command in your pc "openssl rand -base64 32" and take in here
 - change your env.mjs like mine
 - make folder inside api = auth/[...nextauth].ts  and change like my mine
-- add folder middleware to control token user whos loggin role
+- add folder middleware to control token user whos loggin role and in conclusion middleware is used to provide access to the dashboard whether you are registered as an admin or not
 # if you want to add the user open your postman
 - change your file to json
 - http://localhost:3000/api/register
