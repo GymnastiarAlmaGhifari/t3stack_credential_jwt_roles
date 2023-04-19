@@ -55,3 +55,6 @@ this make t3stack project by installing next-auth yourself, this is used to avoi
 - post
 - you can login with many roles you want to add
 - end
+## important
+when copying mine, don't forget to read the comments or (//) on the code that you will replace
+
